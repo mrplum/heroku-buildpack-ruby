@@ -36,9 +36,4 @@ class LanguagePack::Rails42 < LanguagePack::Rails41
     end
   end
 
-  def docs_fail(output)
-    log "swagger_docs", :status => "failure"
-    msg = "Generating Swagger documentation failed.\n"
-    error msg
-  end
 end
